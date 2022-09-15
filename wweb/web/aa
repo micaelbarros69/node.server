@@ -1,0 +1,5 @@
+const http = require("http");
+
+let server = http
+  .createServer((request, response) => {})
+  .listen(4001, () => console.log("Servidor está rodando na porta 4001"));
